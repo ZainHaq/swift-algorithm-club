@@ -8,7 +8,7 @@ If you're a computer science student who needs to learn this stuff for exams -- 
 
 The goal of this project is to **explain how algorithms work**. The focus is on clarity and readability of the code, not on making a reusable library that you can drop into your own projects. That said, most of the code should be ready for production use but you may need to tweak it to fit into your own codebase.
 
-All code is compatible with **Xcode 7.3** and **Swift 2.2**. We'll keep this updated with the latest version of Swift.
+Most code is compatible with **Xcode 8.2** and **Swift 3**. We'll keep this updated with the latest version of Swift.
 
 This is a work in progress. More algorithms will be added soon. :-)
 
@@ -51,13 +51,15 @@ If you're new to algorithms and data structures, here are a few good ones to sta
 - [Selection Sampling](Selection Sampling/). Randomly choose a bunch of items from a collection.
 - [Union-Find](Union-Find/). Keeps track of disjoint sets and lets you quickly merge them.
 
+
 ### String Search
 
 - [Brute-Force String Search](Brute-Force String Search/). A naive method.
 - [Boyer-Moore](Boyer-Moore/). A fast method to search for substrings. It skips ahead based on a look-up table, to avoid looking at every character in the text.
 - Knuth-Morris-Pratt
-- Rabin-Karp
+- [Rabin-Karp](Rabin-Karp/)  Faster search by using hashing.
 - [Longest Common Subsequence](Longest Common Subsequence/). Find the longest sequence of characters that appear in the same order in both strings.
+- [Z-Algorithm](Z-Algorithm/). Finds all instances of a pattern in a String, and returns the indexes of where the pattern starts within the String.
 
 ### Sorting
 
@@ -190,6 +192,7 @@ A lot of software developer interview questions consist of algorithmic puzzles. 
 - [Fizz Buzz](Fizz Buzz/)
 - [Monty Hall Problem](Monty Hall Problem/)
 - [Finding Palindromes](Palindromes/)
+- [Dining Philosophers](DiningPhilosophers/)
 
 ## Learn more!
 
@@ -222,12 +225,14 @@ Other algorithm repositories:
 
 The Swift Algorithm Club was originally created by [Matthijs Hollemans](https://github.com/hollance).
 
-It is now maintained by [Chris Pilcher](https://github.com/chris-pilcher) and [Kelvin Lau](https://github.com/kelvinlauKL).
+It is now maintained by [Vincent Ngo](https://www.raywenderlich.com/u/jomoka) and [Kelvin Lau](https://github.com/kelvinlauKL).
 
 The Swift Algorithm Club is a collaborative effort from the [most algorithmic members](https://github.com/rwenderlich/swift-algorithm-club/graphs/contributors) of the [raywenderlich.com](https://www.raywenderlich.com) community. We're always looking for help - why not [join the club](How to Contribute.markdown)? :]
 
 ## License
 
 All content is licensed under the terms of the MIT open source license.
+
+By posting here, or by submitting any pull request through this forum, you agree that all content you submit or create, both code and text, is subject to this license.  Razeware, LLC, and others will have all the rights described in the license regarding this content.  The precise terms of this license may be found [here](https://github.com/raywenderlich/swift-algorithm-club/blob/master/LICENSE.txt).
 
 [![Build Status](https://travis-ci.org/raywenderlich/swift-algorithm-club.svg?branch=master)](https://travis-ci.org/raywenderlich/swift-algorithm-club)
